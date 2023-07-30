@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hanken+Grotesk:wght@500&family=Nanum+Gothic:wght@700&family=Outfit&family=Roboto:wght@100&family=Tilt+Prism&display=swap');
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 15px;
+}
+
+.container{
+    background-color:white;
+    height: 50vh;
+    width:80vh;
+    border-radius: 20px;
+    box-shadow:0 5px 5px 0 hsl(224, 26%, 62%);
+    display:flex;
+}
+
+.left{
+    height: 50vh;
+    width:40vh;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display:grid;
+    text-align: center;
+    color: hsl(222, 16%, 87%);
+    border-radius: 20px;
+    align-items: center;
+    font-size: 18px;
+    gap:0;
+    opacity: 2;
+}
+
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    font-size: 22px;
+    margin:auto;
+    line-height: 0;
+}
+
+.scored{
+    padding-top: 30px;
+}
+
+.right{
+    float:right;
+    height: 50vh;
+    width:40vh;
+    display:grid;
+    background-color:white;
+    text-align: center;
+    color:hsl(221, 100%, 96%);
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 30px;
+    text-align: start;
+    color:hsl(224, 30%, 27%);
+}
+
+.icon-reaction{
+    height: 6vh;
+    width: 35vh;
+    background-color:hsl(0, 74%, 94%);
+    border-radius: 5px;
+    color:hsl(0, 100%, 67%);
+    display: flex;
+}
+
+.icon-memory{
+    height: 6vh;
+    width: 35vh;
+    background-color:hsl(39, 100%, 93%);
+    border-radius: 5px;
+    color:hsl(39, 100%, 56%);
+    display: flex;
+}
+.icon-verbal{
+    height: 6vh;
+    width: 35vh;
+    background-color:hsl(166, 100%, 94%);
+    border-radius: 5px;
+    color:hsl(166, 100%, 37%);
+    display: flex;
+}
+.icon-visual{
+    height: 6vh;
+    width: 35vh;
+    background-color:hsl(233, 65%, 92%);
+    border-radius: 5px;
+    color:hsl(234, 85%, 45%);
+    display: flex;
+}
+
+img{
+    float:left;
+    padding: 13px;
+    
+}
+
+button{
+    height: 6vh;
+    width: 35vh;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
